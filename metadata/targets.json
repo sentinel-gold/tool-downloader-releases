@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "3604422c8b3b1a5cb9a13a2d837a5591e4a3abc029d678fb6b23d9253080369a",
-   "sig": "15054d5d651ca1d0230e61b06a606d187e4e0978064f214fea830b1c24b4877edee584dd9f82f5a37a6faed69951bb42bc93a584a3cbaf762cabd318ebcb950d"
+   "sig": "2aa5af981ea3785d866a1c7687a94680788c7c0f13ded02025d14f3f635bb90fe33db89dc28d147a46b3b8630f8a66a0fa4840d54963afb65e39aeb5d714e207"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-10-20T08:39:19Z",
+  "expires": "2026-10-20T08:42:10Z",
   "spec_version": "1.0.31",
   "targets": {
    "ToolDownloader-1.0.0.tar.gz": {
@@ -41,8 +41,24 @@
      "sha256": "ca3215058c068cd758e7e8aa7c552b647eed7c5aad39ac561326e7ebb268175d"
     },
     "length": 41821872
+   },
+   "ToolDownloader-1.0.2.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": {
+      "changes": [
+       "full bundle update"
+      ]
+     }
+    },
+    "hashes": {
+     "sha256": "a209266b099540e98651756d84b1d73d80067f5f867a7d36ef2826b53ae047aa"
+    },
+    "length": 41820543
    }
   },
-  "version": 3
+  "version": 4
  }
 }
