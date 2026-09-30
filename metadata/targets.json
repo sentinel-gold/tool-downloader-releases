@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "3604422c8b3b1a5cb9a13a2d837a5591e4a3abc029d678fb6b23d9253080369a",
-   "sig": "de3d713972eb68135467387365bc87c9bcf4869220b6e15d9ac66b0b844fba5cc9fe93fe754ef03aca46b4c0b150cbbc23194ab5b5e8f3921874ee3ee387f408"
+   "sig": "10c1b367f4cee730488a55982ad768a0cf892a02d0e46226e64289fe0480f1e8908808ae73ec5f6742be8f4ccf1c643a41b15b049352736eab9779b1c954e903"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-10-30T10:09:23Z",
+  "expires": "2026-10-30T10:19:10Z",
   "spec_version": "1.0.31",
   "targets": {
    "ToolDownloader-1.0.0.tar.gz": {
@@ -147,8 +147,38 @@
      "sha256": "09c9fe9b291f97d8b95a1fecde68f41a5fb1ebf1558bb736279c38bf4e5564d3"
     },
     "length": 41824190
+   },
+   "ToolDownloader-1.0.7.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "4465695588086dce2cd74508dc87cce35f62f22c445c66de58812eef09e57ce1",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 92723200
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "acc12d7c7d15fb1d16c2a6cb4578dfced4b427a5c5acbd036618d01da76dbdcd"
+    },
+    "length": 72618
+   },
+   "ToolDownloader-1.0.7.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": {
+      "changes": [
+       "tufup patch enabled"
+      ]
+     }
+    },
+    "hashes": {
+     "sha256": "22b7a4f8f1d3d56c05e177ca476153710f3c40a6abb9f6fc274fd736d099a534"
+    },
+    "length": 41824137
    }
   },
-  "version": 7
+  "version": 8
  }
 }
